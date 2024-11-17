@@ -1,0 +1,97 @@
+  {
+    "minVersion": "0.1",
+    "headerImage": "https://raw.githubusercontent.com/nowesr1/WhatsApp-Call-Blocker/refs/heads/main/Sileo/header.png",
+    "class": "DepictionTabView",
+    "tintColor": "#48A974",
+    "tabs": [
+        {
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBottomMargin": false,
+                    "title": "WAIgnoreCalls",
+                    "useBoldText": true
+                },
+                {
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Ignore unwanted calls!"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://raw.githubusercontent.com/nowesr1/WhatsApp-Call-Blocker/refs/heads/main/Sileo/screenshot1.jpeg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot1",
+                            "url": "https://raw.githubusercontent.com/nowesr1/WhatsApp-Call-Blocker/refs/heads/main/Sileo/screenshot2.jpeg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot2",
+                            "url": "https://raw.githubusercontent.com/nowesr1/WhatsApp-Call-Blocker/refs/heads/main/Sileo/screenshot3.jpeg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot3",
+                            "url": "https://raw.githubusercontent.com/nowesr1/WhatsApp-Call-Blocker/refs/heads/main/Sileo/screenshot4.jpeg"
+                        }
+                    ],
+                    "itemSize": "{160, 275.41333333333336}",
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6
+                },
+                {
+                    "markdown": "### Features:\n\n- **Ignoring mode**\n  Ignore all calls, allow only selected contacts or ignore only selected contacts\n\n- **White list**\n  Always allow audio, video and group calls.\n\n- **Selectable contacts list**\n  Quickly import contacts or add them manually.\n\n*The caller won’t know they are being ignored, calls aren’t blocked - they simply won’t bother you anymore :)*\n\n*WAIgnoreCalls' preferences are accessible from the Settings tab in WhatsApp.*",
+                    "class": "DepictionMarkdownView",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "text": "nowesr1",
+                    "class": "DepictionTableTextView",
+                    "title": "Developer"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView",
+            "tabname": "Details"
+        },
+        {
+            "views": [
+                {
+                    "text": "November 17, 2024",
+                    "class": "DepictionTableTextView",
+                    "title": "1.1"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "markdown": "- Enhanced Ignoring mode section\n- Group calls settings support on the latest WhatsApp versions\n- Importing contacts support\n- Russian localization support\n- Improved overall settings interface",
+                    "class": "DepictionMarkdownView",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true
+                }
+            ],
+            "class": "DepictionStackView",
+            "tabname": "Changelog"
+        }
+    ]
+}
